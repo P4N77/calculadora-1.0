@@ -42,11 +42,10 @@ body{
     justify-content: center;
 }
 #operador{
-    border: solid 1px black;
     width: fit-content;
     width: 2rem;
     height: 2rem;
-    background-color: blue;
+    display: none;
 }
 .btn{
     border: none; 
@@ -54,4 +53,7 @@ body{
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 0,5rem;
+}
+#val2{
+    display: none;
 }
